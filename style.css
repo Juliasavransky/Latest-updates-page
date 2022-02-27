@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
+.container {
+  font-family: 'Arial';
+  font-size: var(--font-sub-title);
+  margin-top: 196px;
+}
+.navbar {
+  background-color: var(--color-dark-blue);
+  padding: 32px 64px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+img {
+  width: 100%;
+}
+.navbar-list {
+  display: flex;
+}
+.navbar-item {
+  color: var(--color-white);
+  list-style: none;
+  padding: 16px 24px;
+  font-family: 'Assistant';
+  font-size: var(--font-title-small);
+  cursor: pointer;
+}
+.main {
+  margin: 0 64px;
+  padding-bottom: 150vh;
+}
+.box {
+  display: flex;
+}
+.heder {
+  font-family: 'Courier New';
+  font-size: var(--font-title-small);
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  color: var(--color-dark-blue);
+}
+.section-25 {
+  width: 25%;
+  display: inline-block;
+}
+.section-50 {
+  width: 50%;
+  display: inline-block;
+  margin: 0 24px;
+}
+.sub-title {
+  line-height: 1.69;
+  color: var(--color-black);
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-small);
+}
+.title-small {
+  font-size: var(--font-title-small);
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  color: var(--color-black);
+  margin-bottom: var(--spacing-small);
+  line-height: normal;
+}
+.text-list,
+.text {
+  font-size: var(--font-text);
+  line-height: 1.5;
+  color: var(--color-black);
+}
+.text {
+  margin-bottom: var(--spacing-small);
+}
+.btn {
+  padding: 16px 32px;
+  border-radius: 12px;
+  background-color: var(--color-orange);
+  display: inline-block;
+  font-family: 'Assistant';
+  font-size: var(--font-text);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--color-white);
+}
+.btn:hover {
+  background-color: #f08e0e;
+}
+.btn:focus {
+  background-color: #f08e0e;
+  outline-width: 2px;
+  outline-color: #d87a00;
+}
+.btn:active {
+  background-color: #ffbb33;
+  outline-width: 2px;
+  outline-color: #ffbb33;
+}
+.line {
+  margin: var(--spacing-big) 0;
+  height: 1px;
+  opacity: 0.2;
+  background-color: var(--color-dark-blue);
+}
+.link {
+  color: var(--color-orange-link);
+}
